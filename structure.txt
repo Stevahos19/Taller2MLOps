@@ -1,0 +1,22 @@
+mi_proyecto_mantenimiento/
+├── .venv/                         # Entorno virtual (IGNORADO por Git)
+├── .git/                          # Carpeta interna de Git (IGNORADO por Git)
+├── .gitignore                     # Archivo de configuración de Git
+├── requirements.txt               # Lista de dependencias del proyecto
+├── README.md                      # Descripción del proyecto, cómo configurarlo, etc.
+├── src/                           # Código fuente de tu proyecto (scripts de Python)
+│   ├── __init__.py                # Para que Python trate 'src' como un paquete
+│   ├── data_processing.py         # Scripts para limpieza y preprocesamiento de datos
+│   ├── model_training.py          # Scripts para entrenamiento del modelo
+│   └── prediction_api.py          # Código para tu API de predicción
+├── notebooks/                     # Jupyter Notebooks para experimentación, EDA, prototipos
+│   └── eda_y_modelado_inicial.ipynb
+├── data/                          # Carpeta para tus datasets (IGNORADO por Git)
+│   ├── raw/                       # Datos originales sin modificar
+│   │   └── predictive_maintenance_dataset.zip
+│   │   └── predictive_maintenance_dataset.csv
+│   └── processed/                 # Datos después del preprocesamiento
+├── models/                        # Modelos entrenados (IGNORADO por Git)
+│   └── modelo_regresion_logistica_mantenimiento_v1.joblib
+├── tests/                         # Pruebas unitarias para tu código (opcional al inicio)
+└── setup.py                       # Para hacer tu proyecto instalable (opcional)
